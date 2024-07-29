@@ -46,7 +46,7 @@ function validatePhoneNumber(){
 
 }
 
-function validteForm(){
+function validateForm(){
     if(!validateFullName() || !validatePhoneNumber()){
         return false;
     }
