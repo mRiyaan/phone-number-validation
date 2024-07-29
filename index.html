@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script scr="index.js" defer>
-    
-
-    </script>
+    <script scr="validate.js" defer>
+    </script>     
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
@@ -16,20 +14,19 @@
             <h1>Registration</h1>
             <div class="input-control">
                 <label for="fullname">Full Name</label>
-                <input id="fullname" placeholder="Enter Full name" type="text" required><br>
-                <div class="error"></div>
-                <label for="phoneNumber" >Phone Number</label>
-                <input id="phoneNumber" placeholder="Enter Phone Number" type="number" required> <br>
-                <div class="error"></div>
-                <button type="submit">submit</button>
+                <input id="fullname" placeholder="Enter Full name" type="text"  ><br>
+                <p class="nameError"></p>
+                <label for="phonenumber" >Phone Number</label>
+                <input id="phonenumber" placeholder="Enter Phone Number" type="tel" ><br>
+                <p class="phoneError"></p>
+                <button type="submit" >submit</button>
 
 
             </div>
-            <div class="input-control">
-                
-            </div>
+            
         </form>
+
     </div>
-    
+  
 </body>
 </html>
